@@ -26,46 +26,43 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
-          <BasicSection imageUrl="/test1.png" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          {/* <Partners /> */}
+            <BasicSection imageUrl="/test1.png" title="INVESTING IS BETTER WITH FRIENDS" overTitle="Discuss">
+            <h5>Investing Gone Social</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+             Create private chats with your gang, see what your friends are investing in, get instant data-rich insights as you discuss and share ideas with each other.
+             <br>Psst...We do not disclose your Investment Amount to anyone.
+
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/test1.png" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+
+          <BasicSection imageUrl="/test1.png" title="CREATE, COPY AND SHARE YOUR STOCK PLAYLISTS" overTitle="COLLABORATE" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
-            </p>
-            <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
-            </ul>
+            Create your own playlist of stocks, make one with your group or just find investors you believe in. Reduce risk, invest across different companies so you're not putting all your eggs in one basket, literally.
+
+            </p>            
             </BasicSection>
-            <BasicSection imageUrl="/test1.png" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+
+            <BasicSection imageUrl="/test1.png" title="INVEST IN WHAT YOU BELIEVE IN, WITH AS LOW AS ₹50" overTitle="INVEST">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+            Invest in US Companies, Indian Companies, ETFs and Mutual Funds. </br>
+            If you believe Tesla holds the future for cars, be a part of it for as low as ₹50.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/test1.png" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+
+          <BasicSection imageUrl="/test1.png" title="WIN UPTO ₹1 LAKH EVERY WEEK" overTitle="WIN" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            Earn Tokens with every investment you make, ₹1 = 1 token. </br> Participate with the tokens in weekly games or win by showing off your group’s investing power on the weekly leaderboard.
+
             </p>
-            <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
-            </ul>
+            
+          </BasicSection>
+
+          <BasicSection imageUrl="/test1.png" title="(L)EARN MONEY" overTitle="EARN">
+            <p>
+            Don't worry, we do the hard work. </br> 
+            It’s hard to get time from your busy schedule. We get it. Get insights in a bite-sized form. Stay on top with the latest news. Discuss it with friends. All at one place.
+            </p>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
