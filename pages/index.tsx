@@ -47,19 +47,14 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
                         </p>
                     </BasicSection>
                     <BasicSection imageUrl="/demo-test1.png" title="WIN UPTO ₹1 LAKH EVERY WEEK" overTitle="Win" reversed>
+                        <h5> Earn tokens with every investment you make, ₹1 = 1 token. </h5> 
                         <p>
-                            <h5> Earn tokens with every investment you make, ₹1 = 1 token. </h5> 
-                            </br> Participate with the tokens in weekly games or win by showing off your group's investing power on the weekly leaderboard.
-                        </p>
-                        <ul>
-                            <li>Professional point 1</li>
-                            <li>Professional remark 2</li>
-                            <li>Professional feature 3</li>
-                        </ul>
+                        Participate with the tokens in weekly games or win by showing off your group's investing power on the weekly leaderboard.
+                        </p>  
                     </BasicSection>
                     <BasicSection imageUrl="/demo-test1.png" title="(L)EARN MONEY" overTitle="Earn">
+                        <h5>Don't worry, we do the hard work. </h5> 
                         <p>
-                        </br> Don't worry, we do the hard work. </br> 
                         It’s hard to get time from your busy schedule. We get it. Get insights in a bite-sized form. Stay on top with the latest news. Discuss it with friends. All at one place.
                         </p>
                     </BasicSection>
