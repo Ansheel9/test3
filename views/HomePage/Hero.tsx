@@ -17,7 +17,7 @@ export default function Hero() {
         <CustomOverTitle>Invest. Earn. Win.</CustomOverTitle>
         <Heading>INDIA'S 1st SOCIAL INVESTMENT PLATFORM</Heading>
         <Description>
-         Invest with Friends and Family. Win upto ₹1 lakh every week!{"\n"}
+         Invest with Friends and Family. Win upto ₹1 lakh every week!
          Moreover, directly invest in US Stocks at Zero commission.
         </Description>
         <CustomButtonGroup>
