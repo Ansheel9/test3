@@ -31,7 +31,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             <h5>Investing Gone Social</h5>
             <p>
              Create private chats with your gang, see what your friends are investing in, get instant data-rich insights as you discuss and share ideas with each other.
-             <br>Psst...We do not disclose your Investment Amount to anyone.
+             </br> Psst...We do not disclose your Investment Amount to anyone.
 
             </p>
           </BasicSection>
