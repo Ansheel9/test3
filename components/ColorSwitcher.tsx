@@ -29,7 +29,7 @@ export default function ColorSwitcher() {
     </svg>
   );
 
-  return <CustomButton onClick={toggleTheme}>{colorMode === 'dark' ? sunIcon : moonIcon}</CustomButton>;
+  return <CustomButton onClick={toggleTheme}>{colorMode === 'dark' ? sunIcon : sunIcon}</CustomButton>;
 }
 
 const CustomButton = styled.button`
