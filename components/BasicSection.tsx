@@ -38,11 +38,16 @@ const Title = styled.h1`
   ${media('<=tablet')} {
     font-size: 4.6rem;
     margin-bottom: 2rem;
+    text-align: center !important;
   }
 `;
 
 const CustomOverTitle = styled(OverTitle)`
   margin-bottom: 2rem;
+
+  ${media('<=tablet')} {
+    text-align: center !important;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -71,6 +76,10 @@ const ImageContainer = styled.div`
 
 const ContentContainer = styled.div`
   flex: 1;
+
+  ${media('<=tablet')} {
+    text-align: center !important;
+  }
 `;
 
 type Props = Pick<BasicSectionProps, 'reversed'>;
