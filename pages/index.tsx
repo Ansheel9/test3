@@ -30,7 +30,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
                     <BasicSection imageUrl="/demo-test1.png" title="INVESTING IS BETTER WITH FRIENDS" overTitle="Discuss">
                         <h5>Investing Gone Social</h5>
                         <p>
-                        Create private chats with your gang, see what your friends are investing in, get instant data-rich insights as you discuss and share ideas with each other.
+                        Create private chats with your gang, see what your friends are investing in, get instant data-rich insights as you discuss and share ideas with each other.{"\n"}
                         Psst...We do not disclose your Investment Amount to anyone.
                         </p>
                     </BasicSection>
