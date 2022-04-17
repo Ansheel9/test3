@@ -53,7 +53,7 @@ const ImageContainer = styled.div`
     display: block;
     content: '';
     width: 100%;
-    padding-top: calc((16 / 16) * 100%);
+    padding-top: calc((20 / 16) * 100%);
   }
 
   & > div {
